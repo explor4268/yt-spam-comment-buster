@@ -5,7 +5,7 @@
 | [English](README.md) | Indonesian |
 |-|-|
 
-Memblokir komentar YouTube yang mengandung karakter spesial yang dianggap spam (terutama spam komentar judi online).
+Memblokir komentar YouTube yang mengandung karakter spesial yang dianggap spam (terutama spam komentar judi online) menggunakan Google Apps Script.
 
 ## Instalasi
 
