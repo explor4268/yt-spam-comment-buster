@@ -47,7 +47,7 @@ Memblokir komentar YouTube yang mengandung karakter spesial yang dianggap spam (
 
 ![Jalankan](./screenshots/usage-2.png)
 
-> [!TIP]
+> [!INFO]
 > Jika anda tidak dapat memberikan otorisasi, pastikan anda mengizinkan Cookie pihak ketiga di browser anda. Jika anda masih tidak dapat memberikan otorisasi, gunakan browser lain atau buat profil browser baru.
 
 3. Lihat pada log eksekusi. Jika skrip telah berhasil mendeteksi komentar spam, maka hidupkan opsi untuk melakukan tindakan (menghapus) kepada komentar spam dengan cara menyetel variabel `ENABLE_TAKING_ACTIONS` ke `true` pada baris ke-16.
