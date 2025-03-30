@@ -5,7 +5,7 @@
 | English | [Indonesian](README.id.md) |
 |-|-|
 
-Blocks YouTube comments that contains special character that are likely be a spam.
+Blocks YouTube comments that contains special character that are likely to be a spam.
 
 ## Setup
 
