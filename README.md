@@ -47,7 +47,7 @@ Blocks YouTube comments that contains special character that are likely to be sp
 
 ![Running](./screenshots/usage-2.png)
 
-> [!INFO]
+> [!NOTE]
 > If you cannot authorize the app, make sure to allow third-party cookies, or use a different browser or browser profile.
 
 3. Look at the execution log. If the script detects spam comments successfully, enable taking actions by setting the `ENABLE_TAKING_ACTIONS` variable to `true` on line 16.
