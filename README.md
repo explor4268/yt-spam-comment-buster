@@ -50,15 +50,9 @@ Blocks YouTube comments that contains special character that are likely to be sp
 > [!NOTE]
 > If you cannot authorize the app, make sure to allow third-party cookies, or use a different browser or browser profile.
 
-3. Look at the execution log. If the script detects spam comments successfully, enable taking actions by setting the `ENABLE_TAKING_ACTIONS` variable to `true` on line 16.
+3. Check on your channel's videos comment section if the spam comments are successfully deleted.
 
-![Enable taking actions variable](./screenshots/usage-3.png)
-
-4. Re-run the script to start taking actions. Note that all future runs will take actions after scanning by default unless the relevant variable is set back to `false`.
-
-5. Check on your channel's videos comment section if the spam comments are successfully deleted.
-
-6. To rerun the scan, repeat step 1 and 2 again (but this time you don't have to authorize the script again)
+4. To rerun the scan, repeat step 1 and 2 again (but this time you don't have to authorize the script again)
 
 > [!TIP]
 > You can always take a look of the history of what this script is deleting in the last 7 days by opening the "Executions" tab just below the alarm icon on the left side, then lookup the date of the execution and expand the logs by pressing the down arrow on the right side of the highlighted run.
@@ -68,6 +62,10 @@ Blocks YouTube comments that contains special character that are likely to be sp
 > ![Expand logs](./screenshots/tip-history-2.png)
 > 
 > ![Viewing logs](./screenshots/tip-history-3.png)
+> 
+> Also, you can set this script to only scan comments without taking any actions by setting the `ENABLE_TAKING_ACTIONS` variable to `false`
+> 
+> ![Enable taking actions variable](./screenshots/usage-3.png)
 
 ## Automation
 

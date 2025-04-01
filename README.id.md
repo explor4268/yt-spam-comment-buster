@@ -50,15 +50,9 @@ Memblokir komentar YouTube yang mengandung karakter spesial yang dianggap spam (
 > [!NOTE]
 > Jika anda tidak dapat memberikan otorisasi, pastikan anda mengizinkan Cookie pihak ketiga di browser anda. Jika anda masih tidak dapat memberikan otorisasi, gunakan browser lain atau buat profil browser baru.
 
-3. Lihat pada log eksekusi. Jika skrip telah berhasil mendeteksi komentar spam, maka hidupkan opsi untuk melakukan tindakan (menghapus) kepada komentar spam dengan cara menyetel variabel `ENABLE_TAKING_ACTIONS` ke `true` pada baris ke-16.
+3. Lihat kolom komentar pada video di channel anda jika komentar spam telah berhasil dihapus.
 
-![Variabel lakukan tindakan](./screenshots/usage-3.png)
-
-4. Jalankan ulang skrip untuk mulai melakukan tindakan pada komentar spam. Perlu diingat bahwa setelah langkah sebelumnya, skrip akan otomatis melakukan tindakan setelah memindai komentar kecuali jika variabel opsi untuk melakukan tindakan yang disebutkan diatas diatur kembali ke `false`.
-
-5. Lihat kolom komentar pada video di channel anda jika komentar spam telah berhasil dihapus.
-
-6. Untk memindai ulang, ulangi langkah pertama dan kedua, tetapi tanpa tahap otorisasi ulang.
+4. Untuk memindai ulang, ulangi langkah pertama dan kedua, tetapi tanpa tahap otorisasi ulang.
 
 > [!TIP]
 > Anda dapat selalu melihat histori dari komentar apa saja yang dihapus oleh skrip ini dalam jangka waktu 7 hari terakhir dengan membuka tab "Eksekusi" di bawah ikon alarm pada bagian kiri, kemudian lihat tanggal dari eksekusi skrip dan lihat log eksekusi dengan meng-klik panah kebawah pada bagian kanan dari eksekusi yang dipilih.
@@ -68,6 +62,10 @@ Memblokir komentar YouTube yang mengandung karakter spesial yang dianggap spam (
 > ![Memperlihatkan log eksekusi](./screenshots/tip-history-2.png)
 > 
 > ![Melihat log eksekusi](./screenshots/tip-history-3.png)
+> 
+> Anda juga dapat membuat skrip ini hanya memindai komentar tanpa melakukan penghapusan otomatis dengan mengatur variabel `ENABLE_TAKING_ACTIONS` ke `false`
+> 
+> ![Variabel lakukan tindakan](./screenshots/usage-3.png)
 
 ## Pemindaian otomatis
 
