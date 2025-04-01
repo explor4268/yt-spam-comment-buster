@@ -15,7 +15,7 @@ const SKIP_OWNER_COMMENTS=true;
 // Enable taking actions against detected comments. Taking action for 50 comments or less costs you 50 units of API quota. Make sure you are either the channel moderator or channel owner before enabling!
 const ENABLE_TAKING_ACTIONS=true;
 // Regular Expression to detect. Using https://gist.github.com/explor4268/bdbd4012cb408ea89ec6b3f5cfde38be
-const FLAGGED_REGEXP=/(?!\p{space})([\u{1D400}-\u{1D7FF}\u{1F130}-\u{1F169}\u{1F170}-\u{1F189}\u2780-\u2793\uFF00-\uFFEF]|d[e3]p[0o]|t[o0]g[3e]l|t[o0]t[0o]|77|138)/iu;
+const FLAGGED_REGEXP=/(?!\p{space})([\u{1D400}-\u{1D7FF}\u{1F130}-\u{1F169}\u{1F170}-\u{1F189}\u2780-\u2793\uFF00-\uFFEF]|d[e3]p[0o]|t[o0]g[3e]l|t[o0]t[0o]|77|88|138)/iu;
 // Customize the detection behavior below. **Only change if you know what you're doing.** Should return true if the comment is detected and should be deleted, otherwise return false.
 function detectComment(str){
   return FLAGGED_REGEXP.test(str);
