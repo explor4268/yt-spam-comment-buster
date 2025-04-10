@@ -101,7 +101,7 @@ function deleteComments(detectedComments){
       const commentIds=detectedComments.splice(0,50).map(entry=>entry.commentId);
       if(commentIds.length===0)break;
       totalDeleted+=commentIds.length;
-      console.log("Deleted %s of %s comments (%s remaining)",totalDeleted,totalDetectedComments,detectedComments.length);
+      console.log("Deleting %s of %s comments (%s remaining)",totalDeleted,totalDetectedComments,detectedComments.length);
       YouTube.Comments.setModerationStatus(commentIds,"rejected");
       // console.log(commentIds,"rejected");
       usedApiQuotaUnits+=50;
