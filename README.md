@@ -7,6 +7,12 @@
 
 Blocks YouTube comments that contains special character that are likely to be spam using Google Apps Script.
 
+TODO:
+- [ ] Scan for replies (more API quota usage)
+- [ ] Save deleted comments to a spreadsheet
+- [ ] User-friendly way to restore deleted comments
+- [ ] Maybe make a friendly user-interface for this
+
 ## Setup
 
 1. Open [Google Apps Script](https://script.google.com/home).

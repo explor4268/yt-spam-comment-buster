@@ -7,6 +7,12 @@
 
 Memblokir komentar YouTube yang mengandung karakter spesial yang dianggap spam (terutama spam komentar judi online) menggunakan Google Apps Script.
 
+TODO:
+- [ ] Pindai/scan balasan komentar (memerlukan API quota yang lebih banyak)
+- [ ] Simpan komentar yang terhapus pada suatu file spreadsheet
+- [ ] Cara mengembalikan komentar yang terhapus yang mudah dipahami
+- [ ] Mungkin bikin UI yang friendly
+
 ## Instalasi
 
 1. Buka [Google Apps Script](https://script.google.com/home)
