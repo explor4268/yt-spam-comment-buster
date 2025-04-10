@@ -96,3 +96,10 @@ To stop this script from automatically running, delete the trigger that you crea
 ## Customization
 
 You can customize the behavior of the script by changing variables that are in all uppercase. Beware that changing the maximum amount of comments to be scanned may exceed your daily quota limit, which is 10,000. Currently, you can read additional documentation inside the script file itself.
+
+## See also
+
+- https://github.com/ThioJoe/YT-Spammer-Purge (Inspiration)
+- https://gist.github.com/explor4268/bdbd4012cb408ea89ec6b3f5cfde38be (Regular Expressions)
+- https://github.com/MBenedictt/JudolSlayerProject (Similar project like this)
+- https://github.com/googleworkspace/apps-script-samples/blob/main/advanced/youtube.gs (code samples)

@@ -96,3 +96,10 @@ Anda dapat menghentikan skrip ini berjalan otomatis dengan menghapus pemicu yang
 ## Penyesuaian
 
 Anda dapat menyesuaikan perilaku skrip ini dengan mengubah variabel yang namanya menggunakan huruf kapital semua. Wajib diperhatikan bahwa mengubah jumlah maksimum komentar yang akan dipindah akan melebihi batas kuota harian yaitu 10.000. Untuk sekarang, anda dapat membaca dokumentasi selengkapnya di dalam file skrip itu sendiri.
+
+## Lihat juga
+
+- https://github.com/ThioJoe/YT-Spammer-Purge (Inspirasi)
+- https://gist.github.com/explor4268/bdbd4012cb408ea89ec6b3f5cfde38be (Regex)
+- https://github.com/MBenedictt/JudolSlayerProject (Mirip seperti ini juga)
+- https://github.com/googleworkspace/apps-script-samples/blob/main/advanced/youtube.gs (contoh kode)
