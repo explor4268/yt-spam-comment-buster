@@ -48,6 +48,9 @@ TODO:
 
 ![Saving the project](./screenshots/setup-7.png)
 
+> [!TIP]
+> Be sure to check for code updates for spam detection improvements and new features.
+
 ## Usage
 
 1. Open Google Apps Script and click the relevant project that you created previously.

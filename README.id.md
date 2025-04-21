@@ -48,6 +48,9 @@ TODO:
 
 ![Menyimpan project](./screenshots/setup-7.png)
 
+> [!TIP]
+> Periksa update kode secara berkala agar skrip dapat lebih efektif menghapus spam seiring waktu dan mendapatkan fitur baru.
+
 ## Penggunaan
 
 1. Buka Google Apps Script lalu klik project yang telah dibuat sebelumnya.
