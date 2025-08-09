@@ -5,7 +5,7 @@
 | English | [Indonesian](README.id.md) |
 |-|-|
 
-Blocks YouTube comments that contains special character that are likely to be spam using Google Apps Script.
+Blocks YouTube spam comments that contain special characters that are likely to be spam and blocks UTTP spam comments using Google Apps Script.
 
 > [!NOTE]
 > This guide is for content creators, and also moderators. You can refer to this [guide](https://gist.github.com/explor4268/bdbd4012cb408ea89ec6b3f5cfde38be) if you want to stop spam comments from appearing in YouTube comments section.
