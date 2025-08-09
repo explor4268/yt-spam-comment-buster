@@ -5,13 +5,13 @@
 | [English](README.md) | Indonesian |
 |-|-|
 
-Memblokir komentar spam di YouTube yang mengandung karakter spesial yang dianggap spam (terutama spam komentar judi online) dan memblokir komentar spam UTTP menggunakan Google Apps Script.
+Memblokir komentar spam di YouTube yang mengandung karakter spesial yang dianggap spam (terutama spam komentar judi online) menggunakan Google Apps Script.
 
 > [!NOTE]
 > Guide ini ditujukan untuk para pembuat konten dan para moderator. Anda dapat menggunakan guide [berikut](https://gist.github.com/explor4268/bdbd4012cb408ea89ec6b3f5cfde38be) jika anda ingin menyembunyikan komentar spam pada kolom komentar YouTube.
 
-TODO:
-- [ ] Pindai/scan balasan komentar (memerlukan API quota yang lebih banyak)
+TODO list untuk proyek ini:
+- [ ] Pindai/scan balasan komentar (memerlukan API quota yang lebih banyak). Diperlukan untuk memblokir spam pada balasan komentar seperti komentar spam UTTP.
 - [ ] Simpan komentar yang terhapus pada suatu file spreadsheet
 - [ ] Cara mengembalikan komentar yang terhapus yang mudah dipahami
 - [ ] Mungkin bikin UI yang friendly
